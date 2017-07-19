@@ -1,0 +1,17 @@
+######Init library package:
+$ swift package init --type library
+
+######Init new executable package:
+swift package init --type executable
+
+######Generate a new project with current package file
+swift package generate-xcodeproj
+
+######Fetch all packages from package file
+$ swift package fetch
+
+######Udpate package source code
+$ swift package udpate
+
+######Build project
+$ swift build
